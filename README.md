@@ -1,7 +1,10 @@
-# test coverage for  [bootstrap-sass (v3.3.7)](https://github.com/twbs/bootstrap-sass#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-bootstrap-sass.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-bootstrap-sass) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-bootstrap-sass.svg)](https://travis-ci.org/npmtest/node-npmtest-bootstrap-sass)
+# npmtest-bootstrap-sass
+
+#### test coverage for  [bootstrap-sass (v3.3.7)](https://github.com/twbs/bootstrap-sass#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-bootstrap-sass.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-bootstrap-sass) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-bootstrap-sass.svg)](https://travis-ci.org/npmtest/node-npmtest-bootstrap-sass)
+
 #### bootstrap-sass is a Sass-powered version of Bootstrap 3, ready to drop right into your Sass powered applications.
 
-[![NPM](https://nodei.co/npm/bootstrap-sass.png?downloads=true)](https://www.npmjs.com/package/bootstrap-sass)
+[![NPM](https://nodei.co/npm/bootstrap-sass.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/bootstrap-sass)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-bootstrap-sass/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-bootstrap-sass/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-bootstrap-sass/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-bootstrap-sass/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-bootstrap-sass/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-bootstrap-sass/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-bootstrap-sass/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-bootstrap-sass/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-bootstrap-sass/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-bootstrap-sass/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-bootstrap-sass%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-bootstrap-sass/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-bootstrap-sass/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-bootstrap-sass/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-bootstrap-sass/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-bootstrap-sass%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-bootstrap-sass/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-bootstrap-sass/build/test-report.html](https://npmtest.github.io/node-npmtest-bootstrap-sass/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-bootstrap-sass/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-bootstrap-sass/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-bootstrap-sass/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-bootstrap-sass/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-bootstrap-sass/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-bootstrap-sass/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-bootstrap-sass/build/screenCapture.npmPackageListing.svg)
 
@@ -78,17 +87,14 @@
     "main": "assets/javascripts/bootstrap.js",
     "maintainers": [
         {
-            "name": "glebm",
-            "email": "glex.spb@gmail.com"
+            "name": "glebm"
         },
         {
-            "name": "twbs",
-            "email": "getbootstrap@gmail.com"
+            "name": "twbs"
         }
     ],
     "name": "bootstrap-sass",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/twbs/bootstrap-sass.git"
