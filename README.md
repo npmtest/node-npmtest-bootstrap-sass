@@ -1,6 +1,6 @@
 # npmtest-bootstrap-sass
 
-#### test coverage for  [bootstrap-sass (v3.3.7)](https://github.com/twbs/bootstrap-sass#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-bootstrap-sass.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-bootstrap-sass) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-bootstrap-sass.svg)](https://travis-ci.org/npmtest/node-npmtest-bootstrap-sass)
+#### basic test coverage for  [bootstrap-sass (v3.3.7)](https://github.com/twbs/bootstrap-sass#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-bootstrap-sass.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-bootstrap-sass) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-bootstrap-sass.svg)](https://travis-ci.org/npmtest/node-npmtest-bootstrap-sass)
 
 #### bootstrap-sass is a Sass-powered version of Bootstrap 3, ready to drop right into your Sass powered applications.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-bootstrap-sass/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-bootstrap-sass/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-bootstrap-sass/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-bootstrap-sass/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-bootstrap-sass/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-bootstrap-sass/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-bootstrap-sass/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-bootstrap-sass/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-bootstrap-sass/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-bootstrap-sass/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-bootstrap-sass/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-bootstrap-sass/build/coverage.html/index.html)
 
@@ -102,7 +102,8 @@
     "sass": "assets/stylesheets/_bootstrap.scss",
     "scripts": {},
     "style": "assets/stylesheets/_bootstrap.scss",
-    "version": "3.3.7"
+    "version": "3.3.7",
+    "bin": {}
 }
 ```
 
